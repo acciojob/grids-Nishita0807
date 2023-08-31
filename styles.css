@@ -1,2 +1,51 @@
 
 /* Your CSS Code here. */
+.container {
+            border: 5px solid rgb(4, 255, 4);
+            background-color: rgb(41, 0, 0);
+            padding: 20px;
+        }
+        
+        .row {
+			display:flex;
+			justify-content:space-between;
+			
+            border: 5px solid rgb(255, 188, 188);
+            height: 200px;
+            margin-bottom: 20px;
+        }
+        
+        .col {
+            border: 2px dotted rgb(38, 38, 43);
+            padding: 10px;
+        }
+        
+        .row1-col1 {
+            background-color: teal;
+			border:1px dotted black;
+        }
+        
+        .row1-col2 {
+            background-color: thistle;
+			border:1px dotted black;
+        }
+        
+        .row2-col1 {
+            background-color: tomato;
+			border:1px dotted black;
+        }
+        
+        .row2-col2 {
+            background-color: turquoise;
+			border:1px dotted black;
+        }
+        
+        .row3-col1 {
+            background-color: violet;
+			border:1px dotted black;
+        }
+        
+        .row3-col2 {
+            background-color: yellowgreen;
+			border:1px dotted black;
+        }
